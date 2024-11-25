@@ -15,9 +15,7 @@ function Act(){
             console.log('form data is submitted', formData)
             setisSubmitted(true)
             setFormData({name:'', email:''})
-
         }
-    
     return(
         <div>
         <h1>form</h1>
@@ -53,17 +51,3 @@ function Act(){
 
 export default Act;
 
-
-1,2
-3,4 
-
-2 1  [0,0 0,1
-      1,0  1,1]
-4 3
-
-
-
-
-
-3,1
-4,2

@@ -2,6 +2,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact'
+import Todos from './Todo';
 
 function Fun(){
     const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function Fun(){
             path: "/contact",
             element: <Contact/>
         },
+        {
+            path: "/todos",
+            element: <Todos/>
+        }
 
     ])
 

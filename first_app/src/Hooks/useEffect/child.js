@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import MyContext from "./Context";
 
-const Child = ({user})=>{
+const Child = ()=>{
+    const user = useContext(MyContext);
     return(
         <div>
             <h3>Child Component</h3>
@@ -10,3 +12,5 @@ const Child = ({user})=>{
 }
 
 export default Child;
+
+

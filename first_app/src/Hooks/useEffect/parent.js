@@ -5,8 +5,9 @@ const Parent = ({ user }) => {
     return(
         <div>
             <h2>Parent Component</h2>
-            <Child user={user}/>
+            <Child/>
         </div>
     );
 };
 export default Parent;
+
