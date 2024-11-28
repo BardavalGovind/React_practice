@@ -6,19 +6,19 @@ function Stopwatch(){
     const intervalRef = useRef(null);
 
     function handleStart(){
+        
         setStartTime(Date.now());
         setNow(Date.now());
 
         clearInterval(intervalRef.current);
         intervalRef.current = setInterval(()=>{
             setNow(Date.now());
-        }, 1000);
+        }, 10);
     }
     function handleStop(){
-        if(intervalRef.current){
             clearInterval(intervalRef.current);
             // intervalRef.current = null;
-        }
+        
     }
 
     let secondsPassed = 0;

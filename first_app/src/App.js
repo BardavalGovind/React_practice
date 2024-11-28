@@ -1,9 +1,8 @@
-import Stopwatch from "./Hooks/useRef/stopWatch";
-
+import Routing from "./Route";
 
 function App() {
     return(
-        <Stopwatch/>
+        <Routing/>
     );
 }
 export default App;
